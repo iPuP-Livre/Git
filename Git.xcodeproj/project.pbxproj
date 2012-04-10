@@ -15,6 +15,7 @@
 		3F6B9087153467BD0054E4AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B9086153467BD0054E4AC /* AppDelegate.m */; };
 		3F6B908A153467BD0054E4AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B9089153467BD0054E4AC /* ViewController.m */; };
 		3F6B908D153467BD0054E4AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B908B153467BD0054E4AC /* ViewController.xib */; };
+		3F6B909D153470FF0054E4AC /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B909C153470FF0054E4AC /* backgroundImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		3F6B9076153467BD0054E4AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F6B9078153467BD0054E4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F6B907A153467BD0054E4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F6B907E153467BD0054E4AC /* Git-Info.plist */ = {isa = PBXFileReference; path = "Git-Info.plist"; sourceTree = "<group>"; };
+		3F6B907E153467BD0054E4AC /* Git-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git-Info.plist"; sourceTree = "<group>"; };
 		3F6B9080153467BD0054E4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F6B9082153467BD0054E4AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F6B9084153467BD0054E4AC /* Git-Prefix.pch */ = {isa = PBXFileReference; path = "Git-Prefix.pch"; sourceTree = "<group>"; };
-		3F6B9085153467BD0054E4AC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F6B9084153467BD0054E4AC /* Git-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Git-Prefix.pch"; sourceTree = "<group>"; };
+		3F6B9085153467BD0054E4AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F6B9086153467BD0054E4AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F6B9088153467BD0054E4AC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3F6B9088153467BD0054E4AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F6B9089153467BD0054E4AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F6B908C153467BD0054E4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3F6B909C153470FF0054E4AC /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3F6B9088153467BD0054E4AC /* ViewController.h */,
 				3F6B9089153467BD0054E4AC /* ViewController.m */,
 				3F6B908B153467BD0054E4AC /* ViewController.xib */,
+				3F6B909C153470FF0054E4AC /* backgroundImage.png */,
 				3F6B907D153467BD0054E4AC /* Supporting Files */,
 			);
 			path = Git;
@@ -150,6 +153,7 @@
 			files = (
 				3F6B9081153467BD0054E4AC /* InfoPlist.strings in Resources */,
 				3F6B908D153467BD0054E4AC /* ViewController.xib in Resources */,
+				3F6B909D153470FF0054E4AC /* backgroundImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				3F6B9092153467BD0054E4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
