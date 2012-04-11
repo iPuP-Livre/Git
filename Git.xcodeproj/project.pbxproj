@@ -16,6 +16,8 @@
 		3F6B908A153467BD0054E4AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B9089153467BD0054E4AC /* ViewController.m */; };
 		3F6B908D153467BD0054E4AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B908B153467BD0054E4AC /* ViewController.xib */; };
 		3F6B909D153470FF0054E4AC /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B909C153470FF0054E4AC /* backgroundImage.png */; };
+		3F6B912E153494C90054E4AC /* PPRevealSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B912D153494C90054E4AC /* PPRevealSideViewController.m */; };
+		3F6B91301534954E0054E4AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6B912F1534954E0054E4AC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		3F6B9089153467BD0054E4AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F6B908C153467BD0054E4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		3F6B909C153470FF0054E4AC /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImage.png; sourceTree = "<group>"; };
+		3F6B912C153494C90054E4AC /* PPRevealSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRevealSideViewController.h; sourceTree = "<group>"; };
+		3F6B912D153494C90054E4AC /* PPRevealSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRevealSideViewController.m; sourceTree = "<group>"; };
+		3F6B912F1534954E0054E4AC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6B91301534954E0054E4AC /* QuartzCore.framework in Frameworks */,
 				3F6B9077153467BD0054E4AC /* UIKit.framework in Frameworks */,
 				3F6B9079153467BD0054E4AC /* Foundation.framework in Frameworks */,
 				3F6B907B153467BD0054E4AC /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +58,7 @@
 		3F6B9067153467BD0054E4AC = {
 			isa = PBXGroup;
 			children = (
+				3F6B912F1534954E0054E4AC /* QuartzCore.framework */,
 				3F6B907C153467BD0054E4AC /* Git */,
 				3F6B9075153467BD0054E4AC /* Frameworks */,
 				3F6B9073153467BD0054E4AC /* Products */,
@@ -85,6 +92,7 @@
 				3F6B9089153467BD0054E4AC /* ViewController.m */,
 				3F6B908B153467BD0054E4AC /* ViewController.xib */,
 				3F6B909C153470FF0054E4AC /* backgroundImage.png */,
+				3F6B912B153494C90054E4AC /* PPRevealSideviewController */,
 				3F6B907D153467BD0054E4AC /* Supporting Files */,
 			);
 			path = Git;
@@ -100,6 +108,16 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		3F6B912B153494C90054E4AC /* PPRevealSideviewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B912C153494C90054E4AC /* PPRevealSideViewController.h */,
+				3F6B912D153494C90054E4AC /* PPRevealSideViewController.m */,
+			);
+			name = PPRevealSideviewController;
+			path = PPReveal/PPRevealSideViewController/PPRevealSideviewController;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -167,6 +185,7 @@
 				3F6B9083153467BD0054E4AC /* main.m in Sources */,
 				3F6B9087153467BD0054E4AC /* AppDelegate.m in Sources */,
 				3F6B908A153467BD0054E4AC /* ViewController.m in Sources */,
+				3F6B912E153494C90054E4AC /* PPRevealSideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
